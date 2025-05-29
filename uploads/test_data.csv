@@ -1,0 +1,8 @@
+Name,Age,Date of Birth,Email,Department,Notes,Salary,Joining Date,Is Active
+John Doe,28.0,1995-06-15,john@example.com,Engineering,"Hard-working, team player",55000.0,2020-01-10,TRUE
+Jane Smith,,1988-11-23,jane.smith@company.org,HR,,61000.0,2018-05-20,FALSE
+Ali Khan,35.0,,ali@domain.co.za,Finance,Handles budgets and planning,,2019-09-01,TRUE
+Thando M.,42.0,1981-03-02,,Operations,Available part-time,48000.0,,TRUE
+,30.0,1993-07-12,missing.email@example.com,IT,,53000.0,2021-06-15,TRUE
+Jean-Pierre O'Connor,29.0,1994-12-08,jpo@company.co,Legal,Fluent in French & English,59000.0,2017-02-07,FALSE
+张伟,31.0,1992-08-25,zhang@example.cn,R&D,测试,70000.0,2022-04-01,TRUE
