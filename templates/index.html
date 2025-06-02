@@ -2,13 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>CSV to Excel</title>
+    <title>CSV ↔ Excel Converter</title>
 </head>
 <body>
     <h2>Upload CSV File</h2>
-    <form action="/" method="POST" enctype="multipart/form-data">
-        <input type="file" name="csvfile" accept=".csv" required>
+    <form action="/convert" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
         <button type="submit">Convert to Excel</button>
+    </form>
+
+    <hr>
+
+    <h2>Convert Excel to CSV</h2>
+    <form action="/convert_excel" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xls,.xlsx" required>
+        <button type="submit">Convert to CSV</button>
     </form>
 </body>
 </html>
